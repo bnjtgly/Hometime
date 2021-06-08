@@ -2,7 +2,7 @@
 
 **Concept**
 1. To support scalability and support another endpoint, the payload will be saved in Payload Model. 
-2. After the creation of payload. The app needs to parse the payload that was saved in the database with jsonb datatype using after_save callback. 
+2. After the creation of payload. The app needs to parse the payload that was saved in the database with jsonb datatype using after_create callback. 
 3. The parsed json will be saved in Reservation and Guest Model respectively through nested attributes. 
 
 **Files Used:**
