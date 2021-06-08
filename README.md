@@ -15,9 +15,11 @@ Serializers: jsonb
 **ASSUME:**
 1.  The payload is from another endpoint.
 2.  List of available payloads
+
     2.1 https://www.bnjtgly.cyou/hometime/1
     2.2 https://www.bnjtgly.cyou/hometime/2
 3.  Application endpoints
+
     3.1 get https://www.bnjtgly.cyou/payloads
     3.2 post https://www.bnjtgly.cyou/payloads
 4.  To test "post /payloads" we have to provide the api endpoint.
