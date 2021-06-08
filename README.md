@@ -18,13 +18,13 @@ Serializers: jsonb
 
     2.1 https://www.bnjtgly.cyou/hometime/1
     
-    4.2 https://www.bnjtgly.cyou/hometime/2
+    2.2 https://www.bnjtgly.cyou/hometime/2
     
 3.  Application endpoints
 
     3.1 get https://www.bnjtgly.cyou/payloads
     
-    5.2 post https://www.bnjtgly.cyou/payloads
+    3.2 post https://www.bnjtgly.cyou/payloads
     
 4.  To test "post /payloads" we have to provide the api endpoint.
     	{
