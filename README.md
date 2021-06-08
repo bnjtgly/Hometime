@@ -7,7 +7,8 @@
 
 **Files Used:**
 Models: guest, payload, reservation.
-Controller: hometime_payloads, payloads
+Controllers: hometime_payloads, payloads
+Serializers: jsonb
 
 **Endpoint Testing**
 
@@ -20,6 +21,6 @@ Controller: hometime_payloads, payloads
     3.1 get https://www.bnjtgly.cyou/payloads
     3.2 post https://www.bnjtgly.cyou/payloads
 4.  To test "post /payloads" we have to provide the api endpoint.
-    {
-      "endpoint": "https://www.bnjtgly.cyou/hometime/1"
-		}
+    	{
+      		"endpoint": "https://www.bnjtgly.cyou/hometime/1"
+	}
