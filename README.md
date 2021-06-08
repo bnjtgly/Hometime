@@ -10,6 +10,7 @@ Models: guest, payload, reservation.
 Controller: hometime_payloads, payloads
 
 **Endpoint Testing**
+
 **ASSUME:**
 1.  The payload is from another endpoint.
 2.  List of available payloads
