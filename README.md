@@ -37,9 +37,11 @@ Serializers: jsonb
     
 4.  To test "post /payloads" we have to provide the api endpoint.
 
-    	{
 	
-      		"endpoint": "https://www.bnjtgly.cyou/hometime/1"
+      		{
+			"endpoint": "https://www.bnjtgly.cyou/hometime/1"
+		}
 		
-	}
+		
+	
 	
