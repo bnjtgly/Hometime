@@ -13,8 +13,11 @@ https://www.bnjtgly.cyou/
 
 **Files Used:**
 Models: guest, payload, reservation.
+
 Controllers: hometime_payloads, payloads
+
 Serializers: jsonb
+
 
 **Endpoint Testing**
 
@@ -33,6 +36,9 @@ Serializers: jsonb
     3.2 post https://www.bnjtgly.cyou/payloads
     
 4.  To test "post /payloads" we have to provide the api endpoint.
+
     	{
+	
       		"endpoint": "https://www.bnjtgly.cyou/hometime/1"
+		
 	}
