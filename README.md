@@ -40,7 +40,7 @@ Serializers: jsonb
 	
       		{
 			"endpoint": "https://www.bnjtgly.cyou/hometime/1"
-				}
+			}
 		
 		
 	
