@@ -1,9 +1,15 @@
 # Hometime Coding Exam
 
-**Concept**
-1. To support scalability and support another endpoint, the payload will be saved in Payload Model. 
-2. After the creation of payload. The app needs to parse the payload that was saved in the database with jsonb datatype using after_create callback. 
-3. The parsed json will be saved in Reservation and Guest Model respectively through nested attributes. 
+**Working Demo**
+
+https://www.bnjtgly.cyou/
+
+**Approach**
+1. To support scalability and support another endpoint, the payload will be saved in Payload Model using Postgresql. 
+2. We will use jsonb datatype to save json from the payload.
+3. After the creation of payload. The app needs to parse the payload through after_create callback. 
+4. We will need to serialize the model for easy access of model.
+5. The parsed json will be saved in Reservation and Guest Model respectively through nested attributes. 
 
 **Files Used:**
 Models: guest, payload, reservation.
