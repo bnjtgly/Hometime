@@ -14,7 +14,7 @@ https://www.bnjtgly.cyou/
 **Files Used:**
 Models: guest, payload, reservation.
 
-Controllers: hometime_payloads, payloads
+Controllers: hometime_payloads, payloads, guests, reservations
 
 Serializers: jsonb
 
